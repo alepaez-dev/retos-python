@@ -4,10 +4,9 @@ def format_number(number, separator):
     if number < 0:
         return None, "Error"
     string_number = str(number)
-    length_string = len(string_number)
     new_string = ""
     stop_count = 0
-    index = length_string - 1
+    index = len(string_number) - 1
     #iteramos desde el final hasta el principio
     while index >= 0 :
         stop_count += 1
@@ -22,6 +21,7 @@ def format_number(number, separator):
     #le damos reverse
     new_string = new_string[::-1]
     print(new_string)
+    return new_string
 
 
 

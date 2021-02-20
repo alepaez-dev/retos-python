@@ -1,6 +1,6 @@
 #Crea una funcion que reciba un numero como argumento y devuelva el largo de este numero
 def number_length(number):
-    #comprobamos que no sea negativo
+    #comprobamos que no sea negativo y que si sea ENTERO
     if isinstance(number,int) and number > 0:
         number_string = str(number) ##convertimos a string
         count = 0 #contador

@@ -24,7 +24,7 @@ def change_duplicates(lista):
                 repetition_found = True
                 #hacemos la palabra prulal
                 plural_word = lista_copy[index_1] + "s"
-                #la agregamos a la nueva lista_copy SOLO SI NO ESTA
+                #la agregamos a la nueva nueva lista SOLO SI NO ESTA
                 if plural_word not in new_list:
                     new_list.append(plural_word)
             index_next += 1

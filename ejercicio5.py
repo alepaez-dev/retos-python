@@ -36,6 +36,12 @@ def change_duplicates(lista):
 
 
 
+
+
+
+
+
+
                 
             
 

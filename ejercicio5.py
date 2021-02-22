@@ -33,3 +33,14 @@ def change_duplicates(lista):
             new_list.append(lista_copy[index_1])
         index_1 += 1
     return new_list
+
+
+
+                
+            
+
+
+        
+        
+
+

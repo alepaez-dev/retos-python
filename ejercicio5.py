@@ -4,6 +4,7 @@ def change_duplicates(lista):
     #validacion que sea lista
     if not isinstance(lista, list):
         return None, "Error"
+    #validacion que todos los elementos sean stirng
     for element in lista:
         if not isinstance(element,str):
             return None, "Error, los elementos no son todos String"

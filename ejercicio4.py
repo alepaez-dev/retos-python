@@ -26,6 +26,5 @@ def format_number(number, separator):
 
 
 
-
     
     
